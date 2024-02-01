@@ -74,8 +74,9 @@ pixels.forEach(
         if (pointerDownInGrid) {
             pixel.style.backgroundColor = selectedColor;
             selectedColor = changeColor();
+            
         } else {
-            if (pixel.style.backgroundColor !== selectedColor) {
+            if (selectedColor !== selectedColor) {
             pixel.style.backgroundColor = hoverColor;
             }
         }
