@@ -1,0 +1,14 @@
+body {
+    background-color: grey;
+}
+
+#grid {
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pixel {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
